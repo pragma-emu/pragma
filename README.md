@@ -38,6 +38,7 @@ Also put your games in the Games folder
 This emulator uses third-party libraries and recompilers.
 
 **Dynarmic (MIT Lisense):**
+
 Copyright (C) 2017 merryhime <git@mary.rs>
 
 Permission to use, copy, modify, and/or distribute this software for
@@ -51,4 +52,4 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
 AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
 OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-See the LICENSE.txt 
+See the LICENSE
