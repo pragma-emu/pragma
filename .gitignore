@@ -1,0 +1,59 @@
+
+# Build files
+
+build/
+bin/
+out/
+
+# CMake
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio
+
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+
+# Compiled binaries
+
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.o
+*.obj
+
+# Debug / release output
+
+Debug/
+Release/
+
+# IDE files
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+*.log
+
+# Pragma local game files
+
+Games/*
+!Games/.gitkeep
