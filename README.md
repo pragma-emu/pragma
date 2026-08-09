@@ -1,43 +1,59 @@
 # pragma
 
-An WIP Emulator for the Nintendo Switch 2 wriiten in C++
+A WIP emulator for the Nintendo Switch 2 written in C++.
 
-<a href="https://discord.gg/geD26gwrE"><img alt="Discord" src="https://img.shields.io/discord/1387476383663390732?style=flat&label=Discord&color=5865F2&logo=discord&logoColor=white"></a>
+Join the **pragma Discord Server!**
 
-Join the Discord Server!
-
-# Current Features
+## Current Features
 
 * ARM64 CPU emulation
 * 8-core CPU structure
-* Guest memory
+* 12 GB of dynamically allocated guest memory
 * GPU foundation
-* Audio
 * Virtual filesystem (VFS)
 * `.xci` / `.nso` file detection
 
-It cant run games or firmware. And there is **NO** Homebrew for the Switch 2.
+> **Current limitations:** pragma cannot currently run commercial games or firmware. GPU emulation is currently non-functional. There is currently no publicly available homebrew software for the Nintendo Switch 2.
 
-# What are we working on?
+## Current Status
 
-We are adding 
+pragma is still **WIP**. Development is currently focused primarily on the GPU subsystem.
 
-* SM86 to Vulkan/OpenGL/Direct3D
-* Joy Con 2 Driver
-* Playing Audio from .xci or .nso
-* Firmware supprot 
+Additional libraries and components may be added as development continues.
 
-# Note
+## What We're Working On
 
-This emulator contains **NO** firmware, keys, or games. It will not be distributed with firmware, keys, or games, and it is **not affiliated with Nintendo**.
+* SM86 → Vulkan / OpenGL / Direct3D
+* Joy-Con 2 driver
+* Audio support for `.xci` / `.nso` content
+* Firmware support
 
-Also put your games in the Games folder
+## Contributing
 
-# License
+pragma is currently **not accepting direct contributions**.
 
-This emulator uses third-party libraries and recompilers.
+You can still support the project by:
 
-**Dynarmic (MIT Lisense):**
+*  Starring the repository
+*  Joining the pragma Discord server
+*  Forking the repository
+*  Sharing the project with other developers
+
+When contributions are opened, contribution guidelines will be added here.
+
+## Note
+
+pragma contains **NO firmware, keys, or games**.
+
+It will not be distributed with firmware, keys, or games, and it is **not affiliated with Nintendo**.
+
+If you have legally obtained compatible content, place it in the `Games/` directory as appropriate.
+
+## License
+
+pragma uses third-party libraries and recompilers.
+
+**Dynarmic (MIT License):**
 Copyright (C) 2017 merryhime <git@mary.rs>
 
 Permission to use, copy, modify, and/or distribute this software for
@@ -51,4 +67,4 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
 AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
 OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-See the LICENSE.txt 
+See the LICENSE for More information 
